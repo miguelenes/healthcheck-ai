@@ -110,5 +110,3 @@ it('fails when resolver is not callable', function () {
     expect($result->status)->toEqual(Status::skipped())
         ->and($result->shortSummary)->toBe('Skipped');
 });
-
-
